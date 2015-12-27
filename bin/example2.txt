@@ -1,0 +1,13 @@
+zoo:
+steak:1200
+enclosure:50
+steak:500
+lion:M,12,5,0
+lion:F,10,10
+lion:F,10,10
+lion:F,10,10
+playZookeeper:
+enclosure:30
+tiger:F,1,10,1
+tiger:M,1,10,1
+playZookeeper:

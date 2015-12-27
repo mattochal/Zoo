@@ -1,0 +1,40 @@
+README.txt
+
+TO RUN THE ZOO SIMULATION:
+	java Simulation arg[0] arg[1] arg[2]
+
+	The simulation may take up to three arguments (inclusive):
+	arg[0] - filename, in format of FILENAME.txt
+	arg[1] - delay in milliseconds between months, expressed as integer
+	arg[2] - display mode choice, expressed as integer 
+		0 - very limited detail of the simulation
+		1 - information about each foodstore and each animal in the enclosure at the end of the month
+		2 - detail information about each animal, information about enclosures, and detail information about zookeepers and jobs that they have carried out throughout the month
+	
+	If any of the arguments are not specified the Simulation assumes default values:
+	arg[0] – example.txt
+	arg[1] – 500
+	arg[2] – 1
+
+FILE STRUCTURE
+	ZOO DEFINITION FILES
+		
+		The format of the file is strict.
+		It does not allow incorrect syntax of any definitions after a zoo definition. Any definitions, in fact any characters, before a Zoo definition will be ignored. This is allows writing comments about that particular file
+		It does not allow animal definition before an enclosure definition
+		It does not allow zookeeper definition before an enclosure definition
+		It allows defining multiple zoos in one file.
+
+INFORMATION ABOUT INTERNAL STRUCTURE
+	The .java files should be commented appropriately explaining in depth the functionality of program and the choices made.
+
+EXTENTIONS
+	Additional features have been added to the core specification of the Zoo Coursework. 
+	These include:
+		1. Animal ability to breed
+		2. Choosing display mode and time latency
+		3. Zookeeper ability to look after several enclosures
+
+TROUBLESHOOTING
+	RUNNING SIMULATION AFTER COMPILING
+	NoSuchMethodFoundException : To solve try to compile the classes again where this error occurs and then compile and run the Simulation
