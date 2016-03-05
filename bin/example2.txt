@@ -11,3 +11,17 @@ enclosure:30
 tiger:F,1,10,1
 tiger:M,1,10,1
 playZookeeper:
+zoo:
+steak:1200
+enclosure:50
+steak:500
+lion:M,1,10
+lion:M,1,10
+lion:M,1,10
+lion:M,1,10
+lion:F,1,10
+playZookeeper:
+enclosure:300
+tiger:F,1,10
+tiger:M,1,10,1
+playZookeeper:
